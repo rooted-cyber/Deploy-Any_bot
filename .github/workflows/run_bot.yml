@@ -1,1 +1,20 @@
-hi
+name: Start Bot
+
+on:
+
+  push:
+
+  workflow_dispatch:
+
+jobs:
+
+  bot:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Running bot in github action
+
+        run: wget -O .Dockerfile ${{ secrets.DOCKERFILE }};sudo docker build . --rm --force-rm --compress --pull --file Dockerfile -t ultroid
+

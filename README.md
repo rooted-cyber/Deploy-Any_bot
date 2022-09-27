@@ -2,7 +2,5 @@
 
 ## Secrets
 ```
-DOCKERFILE = direct link of dockerfile
-
-Note: Dockerfile command like vps , not normal
+CMD = type command for deploy bot
 ```

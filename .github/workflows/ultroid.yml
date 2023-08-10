@@ -1,0 +1,20 @@
+name: Ultroid
+
+
+on:
+
+  push:
+
+  workflow_dispatch:
+
+jobs:
+
+  bot:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Running ultroid-bot in github action
+
+        run:  ${{ secrets.UCMD }}

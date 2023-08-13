@@ -5,3 +5,7 @@
 ```
 CMD = type command for deploy bot
 ```
+# Command type
+```
+git clone https://github.com/rooted-cyber/Deploy-Any_bot;cd Dep*
+```
